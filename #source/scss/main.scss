@@ -1,0 +1,64 @@
+body {
+  background: no-repeat 100% 0% url(../../img/background/image\ 429.png);
+  color: #fff;
+}
+
+.section {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.h1 {
+  font-size: 28px;
+  // width: 100%;
+  display: inline-block;
+  text-align: left;
+  font-weight: 500;
+  line-height: 32px;
+  margin-left: 20px;
+  margin-bottom: 16px;
+  margin-top: 20px;
+}
+
+.h2 {
+  font-size: 24px;
+  // width: 100%;
+  display: inline-block;
+  text-align: left;
+  font-weight: 500;
+  line-height: 28px;
+  margin-left: 20px;
+}
+.h2--black {
+  font-size: 20px;
+  // width: 100%;
+  display: inline-block;
+  text-align: left;
+  font-weight: 500;
+  line-height: 28px;
+  margin-left: 20px;
+  color: #000;
+}
+.button {
+  // position: absolute;
+
+  left: 20px;
+  top: 428px;
+  background: #fcb216;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+}
+
+.button--big {
+  width: 280px;
+  height: 56px;
+}
+
+.button__text--big {
+  font-size: 16px;
+}

@@ -1,0 +1,378 @@
+body {
+  background: no-repeat 100% 0% url(../../img/background/image\ 429.png);
+  color: #fff;
+}
+
+.section {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.h1 {
+  font-size: 28px;
+  display: inline-block;
+  text-align: left;
+  font-weight: 500;
+  line-height: 32px;
+  margin-left: 20px;
+  margin-bottom: 16px;
+  margin-top: 20px;
+}
+
+.h2 {
+  font-size: 24px;
+  display: inline-block;
+  text-align: left;
+  font-weight: 500;
+  line-height: 28px;
+  margin-left: 20px;
+}
+
+.h2--black {
+  font-size: 20px;
+  display: inline-block;
+  text-align: left;
+  font-weight: 500;
+  line-height: 28px;
+  margin-left: 20px;
+  color: #000;
+}
+
+.button {
+  left: 20px;
+  top: 428px;
+  background: #fcb216;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+}
+
+.button--big {
+  width: 280px;
+  height: 56px;
+}
+
+.button__text--big {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/MullerRegular.woff") format("woff");
+}
+.header {
+  width: 100%;
+  text-align: left;
+  margin: 0 auto;
+}
+.header__buttons {
+  display: block;
+  height: 32px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 10px 0;
+}
+.header__logo {
+  display: inline-block;
+  width: 64px;
+  margin: 12px 0 0 20px;
+}
+.header__contacts {
+  display: inline-block;
+  width: 32px;
+  margin: 12px 0 0 105px;
+}
+
+.icon__phone {
+  width: 16px;
+  height: 16px;
+  background: no-repeat 70% 0% url(../../img/body/icons/phone.svg);
+  margin: 0 auto;
+}
+
+.phone {
+  display: inline-block;
+  width: 32px;
+}
+.phone__number {
+  display: none;
+}
+
+.burger-menu {
+  display: inline-block;
+  width: 64px;
+}
+
+.burger-menu__button {
+  display: inline-block;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  width: 75px;
+}
+
+.objects {
+  text-align: left;
+}
+.objects__content {
+  text-align: left;
+}
+.objects__choice {
+  display: inline-block;
+  width: 280px;
+  margin-top: 1px;
+  margin-left: 20px;
+}
+
+select {
+  margin-top: 14px;
+  border: none;
+  width: 280px;
+  height: 56px;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.75);
+  text-align: left;
+  padding-left: 24px;
+  border-radius: 4px 4px 0px 0px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#transactions {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #FFF url("../../img/body/icons/icons8-sort_down 8.svg") no-repeat 91% 50%;
+}
+
+#type {
+  margin-top: 0;
+  border-radius: 0px 0px 0px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #FFF url("../../img/body/icons/icons8-sort_down 8.svg") no-repeat 91% 50%;
+}
+
+#prices {
+  margin-top: 0;
+  border-radius: 0px 0px 4px 4px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #FFF url("../../img/body/icons/icons8-sort_down 8.svg") no-repeat 91% 50%;
+}
+
+.discription {
+  font-size: 14px;
+  text-align: left;
+  font-weight: 500;
+  line-height: 20px;
+  display: inline-block;
+  font-weight: 400;
+  width: 220px;
+  margin: 0 0 0 20px;
+}
+
+#show-object-button {
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+#advanced__search {
+  background: url("../../img/body/icons/Vector.svg") no-repeat 80% 55%;
+  color: #fff;
+}
+
+.button__text--white {
+  border-bottom: 1px dashed #fff;
+  font-size: 16px;
+  padding-right: 14px;
+}
+
+.search__button {
+  width: 280px;
+  height: 50px;
+  background: url("../../img/body/icons/Vector.svg") no-repeat 91% 50%;
+  padding-top: 8px;
+}
+
+.hot {
+  background: #2b2b2b;
+  text-align: left;
+}
+.hot__buttons {
+  height: 40px;
+  width: 276px;
+  background: #353535;
+  border-radius: 4px;
+  margin: 0 0 12px 20px;
+}
+.hot__button {
+  display: inline-block;
+  font-weight: 400;
+  background: none;
+  padding: 6px 11px;
+  margin-top: 4px;
+  border-radius: 4px;
+  color: #fff;
+}
+.hot__button--selected {
+  background: #fcb216;
+  color: #000;
+}
+.hot__description {
+  font-size: 12px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 16px;
+  display: inline-block;
+  width: 280px;
+  margin: 0 0 0 20px;
+}
+.hot__item {
+  width: 272px;
+  height: 180px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.card__button--hot {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  border: none;
+  margin: 20px 0 0 22px;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 10px;
+}
+
+.card {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+}
+.card__head {
+  display: inline-block;
+  width: 150px;
+  margin: 73px 0 0 22px;
+}
+.card__text {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 12px;
+  display: inline-block;
+}
+
+.price {
+  display: inline-block;
+  width: 86px;
+  margin: 4px 0 0 22px;
+}
+
+.area {
+  display: inline-block;
+}
+
+.place {
+  display: inline-block;
+}
+
+.promo {
+  background: #2B2B2B;
+  text-align: left;
+}
+.promo__item {
+  width: 228px;
+  height: 320px;
+}
+
+.card__button--promo {
+  border: none;
+  background: none;
+  color: #fff;
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.advantage {
+  background: #2B2B2B;
+  text-align: left;
+}
+
+.advantage__item {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.card__head--advantage {
+  margin: 0 0 6px 0;
+}
+
+.card__description {
+  opacity: 0.5;
+}
+
+.question {
+  background: #2B2B2B;
+  text-align: left;
+}
+
+.card__head--question {
+  display: block;
+  font-size: 16px;
+  width: 240px;
+}
+
+.card__body--question {
+  width: 280px;
+}
+
+.accordion__item {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.article {
+  color: #FCB216;
+}
+
+.consultation {
+  display: inline-block;
+}
+.consultation__description {
+  color: #2A2A2A;
+  text-align: left;
+  display: inline-block;
+  width: 280px;
+  margin: 0;
+}
+.consultation__bottom {
+  height: 80px;
+  background: #2B2B2B;
+  margin-top: 40px;
+}
+
+#your-email {
+  width: 280px;
+  height: 56px;
+  left: 20px;
+  top: 428px;
+  background: #fff;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  border: 2px solid rgba(53, 53, 53, 0.1);
+  border-radius: 4px;
+  margin: 20px 0 12px 0;
+}

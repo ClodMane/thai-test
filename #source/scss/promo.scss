@@ -1,0 +1,17 @@
+.promo {
+    background: #2B2B2B;
+    text-align: left;
+
+    &__item {
+    width: 228px;
+    height: 320px;
+    }
+}
+
+.card__button--promo {
+    border: none;
+    background: none;
+    color: #fff;
+    opacity: 0.5;
+    font-size: 12px;
+}

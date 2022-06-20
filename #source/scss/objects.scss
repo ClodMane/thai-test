@@ -1,0 +1,84 @@
+.objects {
+text-align: left;
+    
+&__content{
+    text-align: left;
+}
+
+&__choice {
+    display: inline-block;
+    width: 280px;
+    margin-top: 1px;
+    margin-left: 20px;
+}   
+}
+// .select-wrapper {
+//     width: 280px;
+//     height: 56px;
+//     background: #fff;
+// }
+select {
+    margin-top: 14px;
+    border: none;
+    width: 280px;
+    height: 56px;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.75);
+    text-align: left;
+    padding-left: 24px;
+    border-radius: 4px 4px 0px 0px;
+    font-size: 16px;
+    line-height: 24px;
+}
+#transactions {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    appearance: none;
+    background: #FFF url('../../img/body/icons/icons8-sort_down\ 8.svg') no-repeat 91% 50%;
+    
+}
+#type {
+    margin-top: 0;
+    border-radius: 0px 0px 0px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    appearance: none;
+    background: #FFF url('../../img/body/icons/icons8-sort_down\ 8.svg') no-repeat 91% 50%;
+}
+#prices {
+    margin-top: 0;
+    border-radius: 0px 0px 4px 4px;
+    appearance: none;
+    background: #FFF url('../../img/body/icons/icons8-sort_down\ 8.svg') no-repeat 91% 50%;
+}
+
+.discription{
+    font-size: 14px;
+  text-align: left;
+  font-weight: 500;
+  line-height:20px;
+  display: inline-block;
+  font-weight: 400;
+  width: 220px;
+  margin: 0 0 0 20px;
+}
+
+#show-object-button {
+    margin-top: 12px;
+    margin-left: 20px;
+}
+#advanced__search {
+    background: url('../../img/body/icons/Vector.svg') no-repeat 80% 55%;;
+    color: #fff;
+}
+.button__text--white {
+    border-bottom: 1px dashed #fff;
+    font-size: 16px;
+    padding-right: 14px;
+}
+
+.search__button {
+    width: 280px;
+    height: 50px;
+    background: url('../../img/body/icons/Vector.svg') no-repeat 91% 50%;
+    padding-top: 8px;
+
+}

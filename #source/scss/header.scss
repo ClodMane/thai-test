@@ -1,0 +1,50 @@
+.header {
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+
+&__buttons {
+        display: block;
+        height: 32px;
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        padding: 10px 0;
+}
+&__logo {
+        display: inline-block;
+        width: 64px;
+        margin: 12px 0 0 20px;
+}
+&__contacts {
+        display: inline-block;
+        width: 32px;
+        margin: 12px 0 0 105px;
+}
+}
+
+.icon__phone {
+        width: 16px;
+        height: 16px;
+        background: no-repeat 70% 0% url(../../img/body/icons/phone.svg);
+        margin: 0 auto;
+}
+
+.phone {
+        display: inline-block;
+        width: 32px;
+
+        &__number {
+                display: none;
+        }
+}
+.burger-menu {
+        display: inline-block;
+        width: 64px;
+}
+.burger-menu__button {
+        display: inline-block;
+        border: none;
+        color: #fff;
+        font-size: 12px;
+        width: 75px;
+}

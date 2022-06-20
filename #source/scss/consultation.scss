@@ -1,0 +1,30 @@
+.consultation {
+    display: inline-block;
+
+    &__description {
+        color: #2A2A2A;
+        text-align: left;
+        display: inline-block;
+        width: 280px;
+        margin: 0;
+    }
+    &__bottom {
+        height: 80px;
+        background:#2B2B2B;
+        margin-top: 40px;
+    }
+}
+
+#your-email {
+width: 280px;
+height: 56px;
+left: 20px;
+top: 428px;
+background: #fff;
+text-align: center;
+font-size: 16px;
+color: #000;
+border: 2px solid rgba(53, 53, 53, 0.1);
+border-radius: 4px;
+margin: 20px 0 12px 0;
+}

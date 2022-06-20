@@ -1,0 +1,91 @@
+.hot {
+  background: #2b2b2b;
+  text-align: left;
+
+  &__buttons {
+    height: 40px;
+    width: 276px;
+    background: #353535;
+    border-radius: 4px;
+    margin: 0 0 12px 20px;
+  }
+
+  &__button {
+    display: inline-block;
+    font-weight: 400;
+    background: none;
+    padding: 6px 11px;
+    margin-top: 4px;
+    border-radius: 4px;
+    color: #fff;
+
+    &--selected {
+      background: #fcb216;
+      color: #000;
+    }
+  }
+
+  &__description {
+    font-size: 12px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 16px;
+    display: inline-block;
+    width: 280px;
+    margin: 0 0 0 20px;
+  }
+
+  &__item {
+    width: 272px;
+    height: 180px;
+    text-align: left;
+    margin-left: 20px;
+  }
+}
+
+.card__button--hot {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  border: none;
+  margin: 20px 0 0 22px;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 10px;
+}
+
+.card {
+  // width: 272px;
+  // height: 180px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  // border: 1px solid red;
+  display: inline-block;
+
+  &__head {
+    display: inline-block;
+    width: 150px;
+    margin: 73px 0 0 22px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    display: inline-block;
+  }
+}
+
+.price {
+  display: inline-block;
+  width: 86px;
+  margin: 4px 0 0 22px;
+}
+
+.area {
+  display: inline-block;
+}
+.place {
+  display: inline-block;
+}

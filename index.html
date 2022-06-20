@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+        <div class="header__logo">
+          <img src="./img/header/logo/HRELOGO 1.svg" alt="logo" class="logo" />
+        </div>
+        <div class="header__contacts">
+          <a href="+79992202020" class="phone header__buttons">
+            <div class="icon icon__phone">
+            </div>
+            <span class="phone__number"> +7 999 220 20 20 </span>
+          </a>
+        </div>
+       
+        <nav class="menu" style="display: none">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="">Покупка </a></li>
+            <li class="menu__item"><a href="">Аренда </a></li>
+            <li class="menu__item"><a href="">Горячие предложения </a></li>
+            <li class="menu__item"><a href="">Путеводитель </a></li>
+            <li class="menu__item"><a href="">Контакты </a></li>
+            <li class="menu__item"><a href="">Ивестирование </a></li>
+          </ul>
+        </nav>
+        <div class="burger-menu">
+          <div class="burger-menu__button  header__buttons">Меню</div>
+          <!-- <nav class="burger-menu__list" style="display: none">
+            <ul class="menu__list">
+              <li class="menu__item"><a href="">Покупка </a></li>
+              <li class="menu__item"><a href="">Аренда </a></li>
+              <li class="menu__item"><a href="">Горячие предложения </a></li>
+              <li class="menu__item"><a href="">Путеводитель </a></li>
+              <li class="menu__item"><a href="">Контакты </a></li>
+              <li class="menu__item"><a href="">Инвестирование </a></li>
+            </ul>
+          </nav> -->
+        </div>
+    </header>
+    <main>
+        <div class="section objects">
+            <div class="objects__content">
+              <h1 class="h1">Недвижимость <br/> в Таиланде для вас</h1>
+                <p class="discription">
+                  Лучшие предложения по аренде и продаже вилл, аппартаментов и
+                  кондоминиумов в Паттайе, Пхукете и Самуи.
+                </p>
+            </div>
+            <div class="objects__choice">
+              <div class="select-wrapper">
+                <select id="transactions">
+                  <option value="rent">Арендовать</option>
+                  <option value="buy">Купить</option>
+                  <option value="invest">Инвестировать</option>
+                </select>
+              </div>
+              <div class="select-wrapper">
+                <select id="type">
+                  <option>Тип объекта</option>
+                  <option value="apartment">Квартира</option>
+                  <option value="cottage">Коттедж</option>
+                  <option value="villa">Вилла</option>
+                </select>
+              </div>
+              <div class="select-wrapper">
+                <select id="prices">
+                  <option value="apartment">Укажите цену</option>
+                  <option value="cottage">Коттедж</option>
+                  <option value="villa">Вилла</option>
+                </select>
+              </div>
+            </div>
+            <div class="objects__selection">
+              <button id="show-object-button" class="button button--big selection__button">
+                <span class="button__text--big">Подобрать объекты</span>
+              </button>
+              <button id="advanced__search" class="button search__button">
+                <span class="button__text--white">Расширенный поиск</span>
+              </button>
+            </div>
+        </div>
+      <div class="section hot">
+        <h2 class="h2">Горячие предложения</h2>
+        <div class="hot__buttons">
+          <button class="button hot__button hot__button--selected">
+            <span class="button__text">Аренда</span>
+          </button>
+          <button class="button hot__button">
+            <span class="button__text">Продажа</span>
+          </button>
+          <button class="button hot__button">
+            <span class="button__text">Инвестиции</span>
+          </button>
+        </div>
+        <div class="hot__description">
+          Мы отбираем лучшие предложения на рынке недвижимости и формируем
+          индивидуальные выгодные предложения
+        </div>
+        <div class="hot__items">
+          <div class="hot__item card" style="background-image: url('./img/body/cards/image_275.png')">
+            <!-- <div class="card__image-wrapper">
+              <img src="./img/body/cards/image 381.png" class="photo" />
+            </div> -->
+            <div class="card__buttons">
+              <button class="card__button--hot">Продажа</button>
+              <button class="card__button--hot">Аренда</button>
+            </div>
+            <h3 class="card__head">3 комн. аппартаменты</h3>
+            <div class="card__body">
+              <div class="price">3 000 000 $</div>
+              <div class="place">
+                <span class="icon">
+                  <img
+                    src="./img/body/icons/icons8-map_pin 15.svg"
+                    alt=""
+                    class="icon__image body"
+                  />
+                </span>
+                <p class="card__text">Мабпрахан, Таиланд</p>
+              </div>
+              <div class="area">
+                <span class="icon">
+                  <img
+                    src="./img/body/icons/icons8-rhombus 16.svg"
+                    alt=""
+                    class="icon__image body"
+                  />
+                </span>
+                <p class="card__text">124(96) м2</p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="hot__item card">
+            <div class="card__buttons">
+              <button class="card__button">Продажа</button>
+              <button class="card__button">Аренда</button>
+            </div>
+            <div class="card__image-wrapper">
+              <img src="./img/body/cards/image 277.png" class="photo" />
+            </div>
+            <h3 class="card__head">3 комн. аппартаменты</h3>
+            <div class="card__body">
+              <div class="price">3 000 000 $</div>
+              <div class="place">
+                <span class="icon">
+                  <img
+                    src="./img/body/icons/icons8-map_pin 15.svg"
+                    alt=""
+                    class="icon__image body"
+                  />
+                </span>
+                <p class="card__text">Мабпрахан, Таиланд</p>
+              </div>
+              <div class="area">
+                <span class="icon">
+                  <img
+                    src="./img/body/icons/icons8-rhombus 16.svg"
+                    alt=""
+                    class="icon__image body"
+                  />
+                </span>
+                <p class="card__text">124(96) м2</p>
+              </div>
+            </div>
+          </div>
+          <div class="hot__item card">
+            <div class="card__buttons">
+              <button class="card__button">Продажа</button>
+              <button class="card__button">Аренда</button>
+            </div>
+            <div class="card__image-wrapper">
+              <img src="./img/body/cards/image 275.png" class="photo" />
+            </div>
+            <h3 class="card__head">3 комн. аппартаменты</h3>
+            <div class="card__body">
+              <div class="price">3 000 000 $</div>
+              <div class="place">
+                <span class="icon">
+                  <img
+                    src="./img/body/icons/icons8-map_pin 15.svg"
+                    alt=""
+                    class="icon__image body"
+                  />
+                </span>
+                <p class="card__text">Мабпрахан, Таиланд</p>
+              </div>
+              <div class="area">
+                <span class="icon">
+                  <img
+                    src="./img/body/icons/icons8-rhombus 16.svg"
+                    alt=""
+                    class="icon__image body"
+                  />
+                </span>
+                <p class="card__text">124(96) м2</p>
+              </div>
+            </div>
+          </div>
+          <div class="hot__item card">
+            <div class="card__buttons">
+              <button class="card__button">Продажа</button>
+              <button class="card__button">Аренда</button>
+            </div>
+            <div class="card__image-wrapper">
+              <img src="./img/body/cards/image 277.png" class="photo" />
+            </div>
+            <h3 class="card__head">3 комн. аппартаменты</h3>
+            <div class="card__body">
+              <div class="price">3 000 000 $</div>
+              <div class="place">
+                <span class="icon">
+                  <img
+                    src="./img/body/icons/icons8-map_pin 15.svg"
+                    alt=""
+                    class="icon__image body"
+                  />
+                </span>
+                <p class="card__text">Мабпрахан, Таиланд</p>
+              </div>
+              <div class="area">
+                <span class="icon">
+                  <img
+                    src="./img/body/icons/icons8-rhombus 16.svg"
+                    alt=""
+                    class="icon__image body"
+                  />
+                </span>
+                <p class="card__text">124(96) м2</p>
+              </div>
+            </div>
+          </div>
+          <div class="hot__item card">
+            <div class="card__buttons">
+              <button class="card__button">Продажа</button>
+              <button class="card__button">Аренда</button>
+            </div>
+            <div class="card__image-wrapper">
+              <img src="./img/body/cards/image 276.png" class="photo" />
+            </div>
+            <h3 class="card__head">3 комн. аппартаменты</h3>
+            <div class="card__body">
+              <div class="price">3 000 000 $</div>
+              <div class="place">
+                <span class="icon">
+                  <img
+                    src="./img/body/icons/icons8-map_pin 15.svg"
+                    alt=""
+                    class="icon__image body"
+                  />
+                </span>
+                <p class="card__text">Мабпрахан, Таиланд</p>
+              </div>
+              <div class="area">
+                <span class="icon">
+                  <img
+                    src="./img/body/icons/icons8-rhombus 16.svg"
+                    alt=""
+                    class="icon__image body"
+                  />
+                </span>
+                <p class="card__text">124(96) м2</p>
+              </div>
+            </div>
+          </div>
+          <div class="hot__item card">
+            <div class="card__buttons">
+              <button class="card__button">Продажа</button>
+              <button class="card__button">Аренда</button>
+            </div>
+            <div class="card__image-wrapper">
+              <img src="./img/body/cards/image 275.png" class="photo" />
+            </div>
+            <h3 class="card__head">3 комн. аппартаменты</h3>
+            <div class="card__body">
+              <div class="price">3 000 000 $</div>
+              <div class="place">
+                <span class="icon">
+                  <img
+                    src="./img/body/icons/icons8-map_pin 15.svg"
+                    alt=""
+                    class="icon__image body"
+                  />
+                </span>
+                <p class="card__text">Мабпрахан, Таиланд</p>
+              </div>
+              <div class="area">
+                <span class="icon">
+                  <img
+                    src="./img/body/icons/icons8-rhombus 16.svg"
+                    alt=""
+                    class="icon__image body"
+                  />
+                </span>
+                <p class="card__text">124(96) м2</p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div class="section promo">
+        <h2 class="h2">Уникальные подборки акции и обзоры</h2>
+        <div class="promo__items">
+          <div class="promo__item card" style="background-image: url('./img/body/cards_long/Rectangle_206.png')">
+            <div class="promo__buttons">
+              <button class="card__button--promo">Подборка объектов</button>
+            </div>
+            <div class="card__body__long">
+              <h3 class="card__head">Топ-10 вилл в крутых районах Тайланда</h3>
+            </div>
+          </div>
+          <!-- <div class="promo__item card">
+            <div class="promo__buttons">
+              <button class="card__button">Обзор проекта</button>
+            </div>
+            <div class="card__body card__body__long">
+              <div class="card__image-wrapper card__image-wrapper___long">
+                <img src="./img/body/cards long/Group 249.png" class="photo" />
+              </div>
+              <h3 class="card__head">
+                Уникальные квартиры в Jomtien House Tripple Squad Apportunity
+              </h3>
+            </div>
+          </div>
+          <div class="promo__item card">
+            <div class="promo__buttons">
+              <button class="card__button">Наши рекомендации</button>
+            </div>
+            <div class="card__body card__body__long">
+              <div class="card__image-wrapper card__image-wrapper___long">
+                <img
+                  src="./img/body/cards long/Rectangle 205.png"
+                  class="photo"
+                />
+              </div>
+              <h3 class="card__head">Виллы от застройщика</h3>
+            </div>
+          </div>
+          <div class="promo__item card">
+            <div class="promo__buttons">
+              <button class="card__button">Акция</button>
+            </div>
+            <div class="card__body card__body__long">
+              <div class="card__image-wrapper card__image-wrapper___long">
+                <img src="./img/body/cards long/image 4.1.png" class="photo" />
+              </div>
+              <h3 class="card__head">
+                Уникальные квартиры в Jomtien House Tripple Squad Apportunity
+              </h3>
+            </div>
+            <div class="promo__show">
+              <button class="button button--big show__button">
+                <span class="button__text">Посмотреть все</span>
+              </button>
+            </div>
+            <div class="promo__feedback">
+              <input
+                type="email"
+                type="email"
+                placeholder="Ваша почта"
+                class="feedback__email"
+              />
+              <button class="button button--big feedback__button">
+                <span class="button__text">Отправить</span>
+              </button>
+              <div class="feedback__description">
+                Нажимая кнопку «отправить», вы принимаете пользовательское
+                соглашение на обработку персональных данных
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div class="section advantage">
+        <h2 class="h2">Преимущества <br> Тайланда</h2>
+        <div class="advantage__items">
+          <div class="advantage__item card">
+            <div class="card__image-wrapper">
+              <img
+                src="./img/body/cards_advantage/Component 1.svg"
+                class="icon"
+              />
+            </div>
+            <h3 class="card__head--advantage">Теплый климат</h3>
+            <div class="card__body">
+              <div class="card__description">
+                Постоянное лето с температурой не ниже 20°С, которое невозможно
+                найти в Испании или финансово более приемлемой Болгарии.
+              </div>
+            </div>
+          </div>
+          <!-- <div class="advantage__item card">
+            <div class="card__image-wrapper">
+              <img src="./img/body/cards advantage/bat 2.svg" class="icon" />
+            </div>
+            <h3 class="card__head">Приятные цены</h3>
+            <div class="card__body">
+              <div class="card__description">
+                Необходимо меньше финансов. Продукты питания стоят недорого.
+                Фрукты и морепродукты можно употреблять в течение всего года.
+              </div>
+            </div>
+          </div>
+          <div class="advantage__item card">
+            <div class="card__image-wrapper">
+              <img src="./img/body/cards advantage/rice 2.svg" class="icon" />
+            </div>
+            <h3 class="card__head">Местная кухня</h3>
+            <div class="card__body">
+              <div class="card__description">
+                Тайская кухня сочетает в себе экзотические и непривычные
+                смешения разных вкусов и гото
+              </div>
+            </div>
+          </div>
+          <div class="advantage__item card">
+            <div class="card__image-wrapper">
+              <img src="./img/body/cards advantage/house 1.svg" class="icon" />
+            </div>
+            <h3 class="card__head">Интересные места</h3>
+            <div class="card__body">
+              <div class="card__description">
+                Парки и сады, уникальная архитектура, античные скульптуры,
+                дворцы и многое другое
+              </div>
+            </div>
+          </div>
+          <div class="advantage__item card">
+            <div class="card__image-wrapper">
+              <img src="./img/body/cards advantage/Frame 12.svg" class="icon" />
+            </div>
+            <h3 class="card__head">Гостеприимство</h3>
+            <div class="card__body">
+              <div class="card__description">
+                Доброе и дружественно относящееся ко всем местное население,
+                готовое одаривать всех улыбками. О лучших соседях и мечтать не
+                стоит.
+              </div>
+            </div>
+          </div>
+          <div class="advantage__item card">
+            <div class="card__image-wrapper">
+              <img
+                src="./img/body/cards advantage/pineapple_2 1.svg"
+                class="icon"
+              />
+            </div>
+            <h3 class="card__head">Свежие фрукты</h3>
+            <div class="card__body">
+              <div class="card__description">
+                Таиланд находится в такой природно-климатической зоне, где
+                свежайшие фрукты доступны в круглогодичном режиме.
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div class="section question">
+        <h2 class="h2">Частые вопросы</h2>
+        <div class="question__accordion">
+          <div class="accordion__item">
+            <h3 class="card__head--question">Что такое дорожные (тревел) чеки?</h3>
+            <p class="card__body--question">
+              Это удобное средство для перевозки денежных средств, как для
+              простых путешественников, так и для людей, собирающихся
+              приобретать недвижимость в Таиланде. Подробнее о преимуществе
+              дорожных чеков в Таиланде, как средства ввоза валюты читайте в
+              <a href="#" class="article">нашей статье</a> .
+            </p>
+          </div>
+          <!-- <div class="accordion__item">
+            <h3 class="card__head--question">
+              Можно ли оплатить покупку наличной валютой?
+            </h3>
+            <p class="card__body--question">
+              Это удобное средство для перевозки денежных средств, как для
+              простых путешественников, так и для людей, собирающихся
+              приобретать недвижимость в Таиланде. Подробнее о преимуществе
+              дорожных чеков в Таиланде, как средства ввоза валюты читайте в
+              <a href="#" class="article">нашей статье</a> .
+            </p>
+          </div>
+          <div class="accordion__item">
+            <h3 class="card__head--question">
+              Процедура покупки кондоминиума на вторичном рынке в Тайланде
+            </h3>
+            <p class="card__body--question">
+              Это удобное средство для перевозки денежных средств, как для
+              простых путешественников, так и для людей, собирающихся
+              приобретать недвижимость в Таиланде. Подробнее о преимуществе
+              дорожных чеков в Таиланде, как средства ввоза валюты читайте в
+              <a href="#" class="article">нашей статье</a> .
+            </p>
+          </div>
+          <div class="accordion__item">
+            <h3 class="card__head--question">
+              Можно ли оплатить покупку наличной валютой?
+            </h3>
+            <p class="card__body--question">
+              Это удобное средство для перевозки денежных средств, как для
+              простых путешественников, так и для людей, собирающихся
+              приобретать недвижимость в Таиланде. Подробнее о преимуществе
+              дорожных чеков в Таиланде, как средства ввоза валюты читайте в
+              <a href="#" class="article">нашей статье</a> .
+            </p>
+          </div>
+          <div class="accordion__item">
+            <h3 class="card__head--question">
+              Процедура покупки кондоминиума на вторичном рынке в Тайланде
+            </h3>
+            <p class="card__body--question">
+              Это удобное средство для перевозки денежных средств, как для
+              простых путешественников, так и для людей, собирающихся
+              приобретать недвижимость в Таиланде. Подробнее о преимуществе
+              дорожных чеков в Таиланде, как средства ввоза валюты читайте в
+              <a href="#" class="article">нашей статье</a> .
+            </p>
+          </div> -->
+        </div>
+      </div>
+      <div class="section consultation">
+        <h2 class="h2--black">
+          Хотите в отпуск, но трудно выбрать недвижимость по вкусу?
+        </h2>
+        <div class="consultation__description">
+          Мы бесплатно консультируем на нескольких языках и готовы оперативно
+          ответить на любые вопросы, просто попросите перезвонить
+        </div>
+        <div class="consultation__feedback">
+          <input
+            id="your-email"
+            type="email"
+            type="email"
+            placeholder="Ваша почта"
+            class="feedback__email"
+          />
+          <button class="button button--big feedback__button">
+            <span class="button__text--big">Отправить</span>
+          </button>
+        </div>
+        <div class="consultation__bottom"></div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.objects__description {
+  display: inline-block;
+  text-align: left;
+}
+
+.description {
+  font-size: 14px;
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  font-weight: 500;
+  line-height: 20px;
+  margin-left: 20px;
+}
